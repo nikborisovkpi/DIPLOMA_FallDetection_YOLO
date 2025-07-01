@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['fall', 'normal']
+
+roboflow:
+  workspace: start-nfzlc
+  project: fall_detection-8vxyk-db695
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/start-nfzlc/fall_detection-8vxyk-db695/dataset/5
